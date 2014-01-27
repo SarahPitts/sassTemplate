@@ -1,8 +1,55 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+$blue: #A1CCBB;
+$purple: #665446;
+$nude: #FFFFFF;
 
 body {
 	width: 100%;
-	font: 100% $font-stack;
-	color: $primary-color;
+	margin: 0px;
+	padding: 0px;
   }
+
+#header{
+		height: 150px;
+		background-color: $blue;
+		}
+
+#banner{
+		height: 150px;
+		background-color: $purple;
+		.container{
+				margin-left: auto;
+				margin-right: auto;
+				width: 960px;
+				height: 150px;
+				background-color: $nude;
+				h2 {
+					margin: 5px;
+					}
+				}
+		}
+
+#content{
+		height: 150px;
+		background-color: $blue;
+		.container{
+				margin-left: auto;
+				margin-right: auto;
+				width: 960px;
+				height: 150px;
+				background-color: $nude;
+				h2 {
+					margin: 5px;
+					}
+				}
+		}
+
+#footer{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+		width: 100%;
+		height: 150;
+		background-color: $blue;
+		}
