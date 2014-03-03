@@ -2,16 +2,56 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  background-color: #a1ccbb; }
+  background-color: #39394a; }
 
-#header, #banner, #footer, #content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-  height: 150px;
-  background-color: white; }
-  #header h1, #header h2, #header h3, #header p, #banner h1, #banner h2, #banner h3, #banner p, #footer h1, #footer h2, #footer h3, #footer p, #content h1, #content h2, #content h3, #content p {
-    padding: 15px; }
+#header {
+  display: inline-block;
+  position: relative;
+  background-color: #63544d;
+  width: 100%; }
+  #header .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 150px;
+    background-color: white; }
+    #header .container h1, #header .container h2, #header .container h3, #header .container p {
+      padding: 15px; }
 
-#container {
-  background-color: #665446; }
+#banner {
+  display: inline-block;
+  position: relative;
+  background-color: #2a3327;
+  width: 100%; }
+  #banner .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 150px;
+    background-color: white; }
+    #banner .container h1, #banner .container h2, #banner .container h3, #banner .container p {
+      padding: 15px; }
+
+#content {
+  background-color: #525263;
+  width: 100%; }
+  #content .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 150px;
+    background-color: white; }
+    #content .container h1, #content .container h2, #content .container h3, #content .container p {
+      padding: 15px; }
+
+#footer {
+  background-color: #63544d;
+  width: 100%; }
+  #footer .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 150px;
+    background-color: white; }
+    #footer .container h1, #footer .container h2, #footer .container h3, #footer .container p {
+      padding: 15px; }

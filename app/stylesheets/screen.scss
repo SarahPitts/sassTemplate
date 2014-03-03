@@ -1,9 +1,12 @@
 
 
 $font-stack:    Helvetica, sans-serif;
-$blue: #A1CCBB;
-$purple: #665446;
+$blue: #39394A;
+$purple: #63544D;
+$green: #2A3327;
 $nude: #FFFFFF;
+$charcoal: #171514;
+$tranquility: #525263;
 
 @mixin container{
 	margin-left: auto;
@@ -29,13 +32,40 @@ body {
 	
   }
 
-#header, #banner, #footer, #content{
-		@include container;
-		}
-
-#container {
+#header {
+	display:inline-block;
+    position:relative;
 	background-color: $purple;
+	width: 100%;
+	.container{
+	@include container;
+	}
+}
 
+#banner {
+	display:inline-block;
+    position:relative;
+	background-color: $green;
+	width: 100%;
+	.container{
+	@include container;
+	}
+}
+
+#content {
+	background-color: $tranquility;
+	width: 100%;
+	.container{
+	@include container;
+	}
+}
+
+#footer {
+	background-color: $purple;
+	width: 100%;
+	.container{
+	@include container;
+	}
 }
 
 
